@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/结算中心.css"/>
+	</head>
+	<body>
+		<div class="box01">
+			<div class="box02">
+				<ul>
+					<li class="li01"><a href="javascript:0">Hi,ROOT001</a></li>
+					<li>目前积分：<span style="color: #0066CC;">7864</span></li>
+					<li class="li02"><a href="">退出</a></li>
+					<li class="li02"><a href="">修改密码</a></li>
+					<li class="li01" style="border-right: none;"><a href="">返回活动选择页</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box03">	
+			<div class="box04">
+				<ul>
+					<li><img src="img/denglu2_1.png"/></li>		
+				</ul>
+				<div class="box05">
+					<ul class="u01">
+						<input type="" name="" id="in01" value="输入关键字"/>
+						<li style="cursor:n-resize">热搜关键词：</li>
+						<li><a href="">金吉星</a></li>
+						<li><a href="">机油</a></li>
+						<li><a href="">工作手套</a></li>
+						<li><a href="">POLO衫</a></li>
+					</ul>
+				</div>	
+			</div>				
+		</div>
+		<div class="box06">
+			<div class="box07">
+				<div class="d01">
+					<p class="p01">
+					<img src="img/denglu2_4.png"/>
+					<a href="">城频道分类</a>
+				</p>
+				<ul class="u02">
+					<li>
+						<img src="img/denglu2_5.png"/>
+						<a href="">家居生活                                                                                             ></a>
+					</li>
+					<li>
+						<img src="img/denglu2_6.png"/>
+						<a href="">汽车养护                                                                                             ></a>
+					</li>
+					<li>
+						<img src="img/denglu2_7.png"/>
+						<a href="">我要服务                                                                                             ></a>
+					</li>
+					<li class="li03">
+						<img src="img/doubleR.png"/>
+						<a href="">分公司查询登录</a>
+					</li>
+				</ul>
+				</div>		
+				<ul class="u03">
+					<li>
+						<img src="img/denglu2_3.png"/>
+						<a href="">首页></a>
+					</li>
+					<li><a href="">活动机制</a></li>
+					<li><a href="">下单流程</a></li>
+					<li><a href="">质保机制</a></li>
+					<li><a href="">活动机制</a></li>
+					<li><a href="">服务中心</a></li>
+					<li><a href="">订单中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box08">
+			<ul>
+				<li>您当前的位置：</li>
+				<li><a href="">首页     ></a></li>
+				<li>购物车</li>
+			</ul>
+		</div>
+		<div class="canner">
+			<img src="img/conBanner.png"/>
+			<p class="chanpin f16 colorfff tc mt15">产品列表</p>
+			<div class="dahe fl mt10">
+				<table class="cartTable">
+	                <tr>
+	                    <th class="cartTable_A f16 font_fam tc colorfff">商品名称</th>
+	                    <th class="cartTable_B f16 font_fam tc colorfff">积分</th>
+	                    <th class="cartTable_C f16 font_fam tc colorfff">数量</th>
+	                    <th class="cartTable_D f16 font_fam tc colorfff">小计</th>
+	                    <th class="cartTable_E f16 font_fam tc colorfff">规则备注</th>
+	                    <th class="cartTable_F f16 font_fam tc colorfff">操作</th>
+	                </tr>
+	                <tr id="cartTr1">
+	                    <td class="f14 font_fam pt15 pb15 clearfix">
+	                        <a class="Aimg90 fl ml15" href="#"><img src="img/products3.png" width="90" height="90"></a>
+	                        <span class="descriPtion_span fl lineH160 font_fam f14 ml10 color666">泊尔双胆正品</span>
+	                    </td>
+	                    <td id="digital_j1" class="f14 font_fam tc">52.00</td>
+	                    <td class="f14 font_fam tc">
+	                        <div class="cartNumber">
+	                            <input class="inpNumber f16 fb" id="but_decr1" type="button"  value="-" onClick="return boutton(1,1);color: rgb(201, 23, 53); cursor: pointer;">
+	                            <input title="1" class="cc_digital font_fam tc" id="digital1" type="text" value="1" maxlength="3" onBlur="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+	                            <input class="inpNumber f16 fb" type="button" id="but_incr1" value="+" onClick="return boutton(0,1);color: rgb(201, 23, 53); cursor: pointer;">
+	                        </div>
+	                    </td>
+	                    <td class="tc f14 font_fam"><span id="digital_x1" class="spXiaoji" title="1">52.00</span> 积分</td>
+	                    <td class="f14 font_fam tc">5L白色</td>
+	                    <td class="tc"><p class="f14 font_fam fb  curaor_pointer" onClick="delSc(1)">删除</p></th>
+	                </tr>
+	                <tr id="cartTr2">
+	                    <td class="f14 font_fam pt15 pb15 clearfix">
+	                        <a class="Aimg90 fl ml15" href="#"><img src="img/products7.png" width="90" height="90"></a>
+	                        <span class="descriPtion_span fl lineH160 font_fam f14 ml10 color666">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100</span>
+	                    </td>
+	                    <td id="digital_j2" class="f14 font_fam tc">82.00</td>
+	                    <td class="f14 font_fam tc">
+	                        <div class="cartNumber">
+	                            <input class="inpNumber f16 fb" id="but_decr2" type="button"  value="-" onClick="return boutton(1,2);">
+	                            <input title="2" class="cc_digital font_fam tc" id="digital2" type="text" value="1" maxlength="3" onBlur="xiaoJiFen(2)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+	                            <input class="inpNumber f16 fb" type="button" id="but_incr2" value="+" onClick="return boutton(0,2);">
+	                        </div>
+	                    </td>
+	                    <td class="tc f14 font_fam"><span id="digital_x2" class="spXiaoji" title="2">82.00</span> 积分</td>
+	                    <td class="f14 font_fam tc">直径28cm 、黑色</td>
+	                    <td class="tc"><p class="f14 font_fam fb  curaor_pointer" onClick="delSc(2)">删除</p></th>
+	                </tr>
+	                <tr id="cartTr3">
+	                    <td class="f14 font_fam pt15 pb15 clearfix">
+	                        <a class="Aimg90 fl ml15" href="#"><img src="img/products9.png" width="90" height="90"></a>
+	                        <span class="descriPtion_span fl lineH160 font_fam f14 ml10 color666">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器</span>
+	                    </td>
+	                    <td id="digital_j3" class="f14 font_fam tc">82.00</td>
+	                    <td class="f14 font_fam tc">
+	                        <div class="cartNumber">
+	                            <input class="inpNumber f16 fb" id="but_decr3" type="button"  value="-" onClick="return boutton(1,3);">
+	                            <input title="3" class="cc_digital font_fam tc" id="digital3" type="text" value="1" maxlength="3" onBlur="xiaoJiFen(3)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+	                            <input class="inpNumber f16 fb" type="button" id="but_incr3" value="+" onClick="return boutton(0,3);">
+	                        </div>
+	                    </td>
+	                    <td class="tc f14 font_fam"><span id="digital_x3" class="spXiaoji" title="3">82.00</span> 积分</td>
+	                    <td class="f14 font_fam tc">直径28cm 、黑色</td>
+	                    <td class="tc"><p class="f14 font_fam fb  curaor_pointer" onClick="delSc(3)">删除</p></th>
+	                </tr>
+	                <tr>
+	                    <td class="gwOpera clearfix f14 font_fam" colspan="6">
+	                        <div class="mr10">
+	                            <p class="fl mr40 f18 ml15">商品总额：<span class="colorFC0C0C fb f16"><em class="totalNum fb f16 fb">274.00</em>积分</span></p>
+	                            <p class="fl f18">账户余额：<span class="colorFC0C0C fb f16"><em class="fb f16">278.00</em>积分</span></p>
+	                        </div>
+	                    </td>
+	                </tr>
+	            </table>
+			</div>
+			<h3 class="h33">
+	            <span class="fl">收货人信息</span>
+	            <span style="width: 475px;" class="fr mr20">提示：信息为默认获取信息、如需修改点击文字可直接编辑</span>
+	        </h3>
+			<div class="canner1">
+				<h5 class="hh">现有收货地址：</h5>
+				<div class="canner1_1">
+					<div class="box1">
+						<input type="radio"/>
+						<span>王叶薇    </span><span>中国    </span>
+						<span>上海  </span><span>闸北区</span>
+						<span>杨曲路760弄14号    </span><span>303200435</span>
+					</div>
+					<div class="pl86">
+						<input type="button"id="" value="修改" class="inp1"/>
+						<input type="button"id="" value="删除" class="inp1" />
+					</div>
+				</div>
+				<div class="canner1_1">
+					<div class="box1">
+						<input type="radio"/>
+						<span>王叶薇    </span><span>中国    </span>
+						<span>上海  </span><span>闸北区</span>
+						<span>杨曲路760弄14号    </span><span>303200435</span>
+					</div>
+					<div class="pl86">
+						<input type="button"id="" value="修改" class="inp1"/>
+						<input type="button"id="" value="删除" class="inp1" />
+					</div>
+				</div>
+				<div class="canner1_1">
+					<div class="box1">
+						<input type="radio"/>
+						<span>王叶薇    </span><span>中国    </span>
+						<span>上海  </span><span>闸北区</span>
+						<span>杨曲路760弄14号    </span><span>303200435</span>
+					</div>
+					<div class="pl86">
+						<input type="button"id="" value="修改" class="inp1"/>
+						<input type="button"id="" value="删除" class="inp1" />
+						<p class="pi">新增收货地址</p>
+					</div>
+				</div>
+			</div>
+			<h3 class="goods_tistH3 mt15 clearfix"><span class="f16 font_fam tc fl colorfff">配送方式</span></h3>
+			<div class="borHecon mt10">
+	        	<table class="shoppingTable mb5">
+	        		<tr>
+	                    <th class="deliverTha font_fam f18 colorfff tc">名称</th>
+	                    <th class="deliverThb font_fam f18 colorfff tc">描述</th>
+	                    <th class="deliverThc font_fam f18 colorfff tc">费用</th>
+	                </tr>
+	                <tr>
+	                	<td class="pl30 clearfix"><input class="fl" type="radio" checked="checked" value=""><span class="fl f14 font_st ml10">普通送货</span></td>
+	                    <td class="pl30"><span class="f14 font_st">普通送货</span></td>
+	                    <td class="tc"><span class="f14 font_st">0.00 积分</span></td>
+	                </tr>
+	        	</table>
+        	</div>
+        	<h3 class="goods_tistH3 mt15 clearfix"><span class="f16 font_fam tc fl colorfff">支付方式</span></h3>
+			<div class="borHecon mt10">
+	        	<table class="shoppingTable mb5">
+	        		<tr>
+	                    <th class="deliverTha font_fam f18 colorfff tc">名称</th>
+	                    <th class="deliverThb font_fam f18 colorfff tc" style="width: 892px;">描述</th>
+	                </tr>
+	                <tr>
+	                	<td class="pl30 clearfix"><input class="fl" type="radio" checked="checked" value=""><span class="fl f14 font_st ml10">积分支付</span></td>
+	                    <td class="pl30"><span class="f14 font_st">使用积分支付</span></td>
+	                </tr>
+	        	</table>
+        	</div>
+        	<h3 class="h33">
+		        <span class="fl">发票信息</span>
+		        <span style="width: 475px;" class="fr mr20">提示：信息为默认获取信息、如需修改点击文字可直接编辑</span>
+	    	</h3>
+	    	<div class="borHecon mt10">
+	        	<table class="shoppingTable mb5">
+	        		<tr>
+	                    <th class="js_Tableth1 font_fam f16 pl35 colorfff">发票类型</th>
+	                    <td class="js_Tableth2">
+	                    	<input class="ys_input font_fam f16 bor_none pl35 co868383" type="text" value="普通发票">
+	                    </td>
+	                    <th class="js_Tableth3 font_fam f16 pl35 colorfff">发票抬头</th>
+	                    <td class="js_Tableth4">
+	                    	<input class="ys_input font_fam f16 bor_none pl35 co868383" type="text" value="单位">
+	                    </td>
+	                </tr>
+	                <tr>
+	                    <th class="font_fam f16 pl35 colorfff">单位名称</th>
+	                    <td class="js_Tableth2">
+	                    	<input class="ys_input font_fam f16 bor_none pl35 co868383" type="text" value="上海市卡里卡拉摩西摩卡有限公司">
+	                    </td>
+	                    <th class="font_fam f16 pl35 colorfff">发票内容</th>
+	                    <td>
+	                    	<input class="js_Tableth4 ys_input font_fam f16 bor_none pl35 co868383" type="text" value="商品信息">
+	                    </td>
+	                </tr>
+	        	</table>
+        	</div>
+        	<h3 class="goods_tistH3 mt15 clearfix"><span class="f16 font_fam tc fl colorfff">费用总计</span></h3>
+			<table class="shoppingTable font_fam mt10">
+	            <tr>
+	                <td class="fyzj_Tab font_fam pl40">商品总额：<span class="color0066CC font_st fb">2598.00</span> 积分</td>
+	            </tr>
+	            <tr>
+	                <td class="pl40">运费：<span class="color0066CC font_st fb">0.00</span> 积分</td>
+	            </tr>
+	            <tr>
+	                <td class="pl40">订单总额：<span class="color0066CC font_st fb">2598.00</span> 积分</td>
+	            </tr>
+	            <tr>
+	                <td class="fyzj_Tabfist font_fam tc"><input class="bor_none thD curaor_pointer mt20 mb20" type="submit" value="提交"></td>
+	            </tr>
+	        </table>
+		</div>
+		<div class="footer_top">
+			<div class="top1">
+				<img src="img/foorterimg.jpg"/>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="bottom1">
+				<ul>
+					<li><a href="">订单帮助</a></li>
+					<li><a href="">礼品售后</a></li>
+					<li><a href="">投诉说明</a></li>
+					<li><a href="">法律声明</a></li>
+					<li><a href="">友情链接</a></li>
+				</ul>
+				<p>版权所有  沪ICP备12038387号</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/header-common.js"></script>
